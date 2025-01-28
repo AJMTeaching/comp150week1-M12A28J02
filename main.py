@@ -17,7 +17,7 @@ person['city'] = 'paris' #3.a adds a new key-value pair
 print (person) #3.b prints the new dictioanry
 del person ["age"] #4.a deletes age key-value pair 
 print (person) #4.b prints out new dict 
-for key, value, person.item () #5.a iterates through the person dictioanry
+for key, value in person.item () #5.a iterates through the person dictioanry
 print (f"{key}: {value}") #5.b prints them out 
 
 # Problem 1
