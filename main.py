@@ -1,11 +1,68 @@
 # ------------------------------------------------------------------------
 
 # Lab 1
+### Lab Exercise 1: Lists in Python
+
+my_list = [1, 5, 'apple', 20.5] #1. Created a list with the givien values 
+print(my_list[3])  #2 using indexing, printed the value of apple 
+
+my_list.append(10) #3 Added the value 10 to the end of my_list 
+my_list.remove(3)  #4 removed the number 20.5 from the end of the list 
+my_list.reverse()  #5 reversed the order of my_list using the .reverse method 
+
+### Lab Exercise 2: Dictionaries in Python
+person = {'name' : 'john', 'age': '30', 'job': 'teacher'} #1created a dictioanry 
+print (person['job']) #2 printed the value corresponding to job key
+person['city'] = 'paris' #3.a adds a new key-value pair 
+print (person) #3.b prints the new dictioanry
+del person ["age"] #4.a deletes age key-value pair 
+print (person) #4.b prints out new dict 
+for key, value, person.item (): #5.a iterates through the person dictioanry 
+print (f"{key}: {value}") #5.b prints them out 
+
+
+
+
+
+    
+
+
+    
+
+
+
 # Problem 1
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
+def count_vowels(phrase):
+    ''' 
+        Arg: Will take string and convert over to a list 
+            if __ in list check if vowl in list 
+            repeat for each vowel 
+        Returns: Original phrase and how many vowels were in it 
+        
+    '''
+    
+
+
+
+
+
 
 # Problem 2
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # -----------------------------------------------------------------------------
 

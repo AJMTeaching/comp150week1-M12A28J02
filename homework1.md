@@ -3,7 +3,6 @@ Here are 5 programming homework questions with extended unit tests and usage res
 
 ### 1. Function: `count_vowels`
 **Description**: Write a function that takes a string and returns the number of vowels (a, e, i, o, u) in the string. Implement this using a loop and conditional statements.
-
 **Restrictions**: Do not use `string.count()` method or regular expressions (`re` module).
 
 **Unit Tests**:
