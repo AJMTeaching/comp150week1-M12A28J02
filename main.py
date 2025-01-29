@@ -17,13 +17,13 @@ person['city'] = 'paris' #3.a adds a new key-value pair
 print (person) #3.b prints the new dictioanry
 del person ["age"] #4.a deletes age key-value pair 
 print (person) #4.b prints out new dict 
-for key, value in person.item () #5.a iterates through the person dictioanry
-print (f"{key}: {value}") #5.b prints them out 
+for key, value in person.item (): #5.a iterates through the person dictioanry
+    print (f"{key}: {value}") #5.b prints them out 
 
 # Problem 1
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
 def count_vowels(phrase):
-   
+   pass
 
 
 
