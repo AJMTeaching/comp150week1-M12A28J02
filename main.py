@@ -4,11 +4,13 @@
 ### Lab Exercise 1: Lists in Python
 
 my_list = [1, 5, 'apple', 20.5] #1. Created a list with the givien values 
-print(my_list[3])  #2 using indexing, printed the value of apple 
-
+print(my_list[2])  #2 using indexing, printed the value of apple 
 my_list.append(10) #3 Added the value 10 to the end of my_list 
-my_list.remove(3)  #4 removed the number 20.5 from the end of the list 
+print(my_list) #print updated list
+my_list.remove(20.5)  #4 removed the number 20.5 from the end of the list 
+print(my_list) #print updated list
 my_list.reverse()  #5 reversed the order of my_list using the .reverse method 
+print(my_list) #print updated list
 
 ### Lab Exercise 2: Dictionaries in Python
 person = {'name' : 'john', 'age': '30', 'job': 'teacher'} #1created a dictioanry 
