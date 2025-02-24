@@ -36,7 +36,7 @@ def count_vowels( s : str) -> int:
         if char in vowels: #Checks if he character is a vowel
             count += 1 #adds the counter 
     
-    return count #returns the value at the end
+    return count #returns the total count at the end
 
 
 
@@ -47,11 +47,32 @@ def count_vowels( s : str) -> int:
 
 # Problem 2
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
+def merge_lists(list1: list, list2: list) -> list:
+    merged = []  # Initialize an empty list to store merged elements
+    i, j = 0, 0  # Pointers for both lists
 
+    # Compare elements from both lists and append the smaller one
+    while i < len(list1) and j < len(list2):
+        if list1[i] < list2[j]:  # Append element from list1
+            merged.append(list1[i])  
+            i += 1  # Move the pointer in list1
+        else:  
+            merged.append(list2[j])  # Append element from list2
+            j += 1  # Move the pointer in list2
 
+    # Add remaining elements from list1 (if any)
+    while i < len(list1):
+        merged.append(list1[i])
+        i += 1  
 
+    # Add remaining elements from list2 (if any)
+    while j < len(list2):
+        merged.append(list2[j])
+        j += 1 
+    return merged  # Return the merged sorted list
 
-
+# Problem 3
+# Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
 
 
 
