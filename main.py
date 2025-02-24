@@ -73,8 +73,14 @@ def merge_lists(list1: list, list2: list) -> list:
 
 # Problem 3
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
+def word_lengths(words: list) -> list:
+    lengths = []  # Initialize an empty list to store lengths
+    for word in words:  # Iterate through each word in the list
+        lengths.append(len(word))  # Append the length of each word
+    return lengths  # Return the list of lengths
 
-
+ #Problem 4
+# Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
 
 
 
