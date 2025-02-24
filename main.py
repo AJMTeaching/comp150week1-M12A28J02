@@ -28,9 +28,15 @@ for key, value in person.items(): #5.a iterates through the person dictionary
 
 # Problem 1
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
-def count_vowels(phrase):
-   pass
-
+def count_vowels( s : str) -> int: 
+    vowels = "aeiouAEIOU" #indicates what vowels are 
+    count = 0 # sets up a counter
+    
+    for char in s: #creates for loop that checkes each character
+        if char in vowels: #Checks if he character is a vowel
+            count += 1 #adds the counter 
+    
+    return count #returns the value at the end
 
 
 
