@@ -81,8 +81,20 @@ def word_lengths(words: list) -> list:
 
  #Problem 4
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
+def reverse_string(s: str) -> str:
+    reversed_str = ""  # Initialize an empty string
+    for char in s:  # Iterate through each character
+        reversed_str = char + reversed_str  # Prepend the character
+    return reversed_str  # Return the reversed string
 
-
+ #Problem 5
+# Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
+def intersection(list1: list, list2: list) -> list:
+    result = []  # Initialize an empty list to store intersection elements
+    for item in list1:  # Iterate through each element in list1
+        if item in list2 and item not in result:  # Check if item exists in list2 and is not a duplicate
+            result.append(item)  # Append to result
+    return result  # Return the intersection list
 
 
 
