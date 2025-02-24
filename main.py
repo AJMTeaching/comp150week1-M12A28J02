@@ -13,13 +13,17 @@ my_list.reverse()  #5 reversed the order of my_list using the .reverse method
 print(my_list) #print updated list
 
 ### Lab Exercise 2: Dictionaries in Python
-person = {'name' : 'john', 'age': '30', 'job': 'teacher'} #1created a dictioanry 
+person = {'name' : 'john', 'age': 30, 'job': 'teacher'} #1 created a dictioanry 
+
 print (person['job']) #2 printed the value corresponding to job key
+
 person['city'] = 'paris' #3.a adds a new key-value pair 
 print (person) #3.b prints the new dictioanry
-del person ["age"] #4.a deletes age key-value pair 
+
+del person["age"] #4.a deletes age key-value pair 
 print (person) #4.b prints out new dict 
-for key, value in person.item (): #5.a iterates through the person dictioanry
+
+for key, value in person.items (): #5.a iterates through the person dictioanry
     print (f"{key}: {value}") #5.b prints them out 
 
 # Problem 1
